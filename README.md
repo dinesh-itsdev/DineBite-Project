@@ -62,8 +62,19 @@ The application allows users to browse restaurants and food items, search for fo
 
 ```text
 DineBite-Project/
+
 │
-├── frontend/
+├── DineBite-Spring Boot/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   ├── pom.xml
+│   ├── mvnw
+│   └── mvnw.cmd
+│
+├── DineBite-React/
 │   ├── public/
 │   ├── src/
 │   │   ├── assets/
@@ -74,16 +85,6 @@ DineBite-Project/
 │   ├── package.json
 │   ├── package-lock.json
 │   └── vite.config.js
-│
-├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   └── resources/
-│   │   └── test/
-│   ├── pom.xml
-│   ├── mvnw
-│   └── mvnw.cmd
 │
 ├── .gitignore
 └── README.md
